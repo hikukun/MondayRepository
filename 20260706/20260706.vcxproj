@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ソース.cpp" />
+    <ClCompile Include="20260706_Function1_tokushige.cpp" />
+    <ClCompile Include="20260706_PracMain1_tokushige.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="20260706_Header1_tokushige.h" />
+    <ClInclude Include="Config1_tokushige.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
