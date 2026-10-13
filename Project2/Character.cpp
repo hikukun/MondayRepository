@@ -1,17 +1,7 @@
 #include "Character.h"
-#include<iostream>
-
-Character::Character(std::string name)
-{
-	this->name=name;
-}
-
-std::string Character::GetName()
-{
-	return name;
-}
-
+#include <iostream>
+using namespace std;
 void Character::Attack()
 {
-	std::cout << "UŒ‚‚µ‚½" << std::endl;
+	cout << "UŒ‚‚ð‚·‚é" << endl;
 }

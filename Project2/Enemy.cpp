@@ -1,10 +1,8 @@
 #include "Enemy.h"
 #include<iostream>
+using namespace std;
 
-Enemy::Enemy(std::string name):Character(name)
-{}
-
-void Attack()
+void Enemy::Attack()
 {
-	std::cout << "‚©‚Ý‚Â‚«UŒ‚I" << std::endl;
+	cout << "‚©‚Ý‚Â‚«UŒ‚‚ð‚·‚é" << endl;
 }

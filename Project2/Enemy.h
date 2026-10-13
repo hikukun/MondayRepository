@@ -1,9 +1,8 @@
 #pragma once
-#include"Character.h"
-class Enemy:public Character
+#include "Character.h"
+class Enemy :public Character
 {
 public:
-	Enemy(std::string name);
-	void Attack()override;
+	void Attack();
 };
 
