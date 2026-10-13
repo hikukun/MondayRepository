@@ -5,5 +5,5 @@ Wizard::Wizard(string name) :Character(name) {}
 
 void Wizard::Attack()
 {
-	cout << "必殺の鼻ブーだ！" << endl;
+	cout << "ハナブー" << endl;
 }
