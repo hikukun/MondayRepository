@@ -1,5 +1,6 @@
 #include<iostream>
 #include "Player.h"
+#include"Wizard.h"
 #include "Enemy.h"
 #include "Boss.h"
 #include "BattleManager.h"
@@ -7,11 +8,13 @@ int main(void)
 {
 	//コンストラクタ
 	Player player("勇者ヨシヒコ");
+	Wizard wizard("魔法使いメレブ");
 	Enemy enemy("スライム");
 	Boss boss("魔王");
 	BattleManager manager;
 
 	manager.StartBattle(&player);
+	manager.StartBattle(&wizard);
 	manager.StartBattle(&enemy);
 	manager.StartBattle(&boss);
 
