@@ -2,12 +2,7 @@
 #include<iostream>
 using namespace std;
 
-void Madoka::Attack()
+void Madoka::Fight()
 {
-	cout << "‚Ü‚Çƒ}ƒM‚í‚©‚ñ‚È‚¢\n";
-}
-
-void Madoka::ShowProfile()
-{
-	cout << "‚Ü‚Çƒ}ƒM‚í‚©‚ñ‚È‚¢\n";
+	cout << "‹|‚ðŽg‚Á‚ÄUŒ‚‚µ‚Ü‚·" << endl;
 }

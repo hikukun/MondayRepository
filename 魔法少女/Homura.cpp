@@ -2,12 +2,12 @@
 #include<iostream>
 using namespace std;
 
-void Homura::Attack()
+void Homura::Fight()
 {
-	cout << "まどマギよくわかんない" << endl;
+	cout << "時間を停止を利用して・・・" << endl;
 }
 
 void Homura::ShowProfile()
 {
-	cout << "女の子" << endl;
+	cout << "まどかたちの前に現れた謎の少女、銃器を使い久兵衛をハチの巣にするよ" << endl;
 }

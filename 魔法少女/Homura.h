@@ -1,10 +1,16 @@
 #pragma once
-#include"MagicalGirl.h"
-class Homura: public MagicalGirl
+#include "MagicalGirl.h"
+class Homura :public MagicalGirl
 {
 public:
-	void Attack()override;
+	/// <summary>
+	/// 戦闘行動（ほむら）
+	/// </summary>
+	void Fight() override;
 
-	void ShowProfile()override;
+	/// <summary>
+	/// プロフィール表示
+	/// </summary>
+	void ShowProfile() override;
 };
 

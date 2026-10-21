@@ -1,14 +1,23 @@
 #pragma once
+using namespace std;
 class MagicalGirl
 {
 public:
 	/// <summary>
-	/// 攻撃
+	/// 戦闘行動
 	/// </summary>
-	void virtual Attack();
+	virtual void Fight() = 0;
+
 	/// <summary>
-	/// プロフィール表示
+	/// 共通のプロフィール表示を用意する
 	/// </summary>
-	void virtual ShowProfile();
+	virtual void ShowProfile();
+
+	/// <summary>
+	/// 魔法少女デストラクタ
+	/// </summary>
+	virtual ~MagicalGirl();
+
+
 };
 
